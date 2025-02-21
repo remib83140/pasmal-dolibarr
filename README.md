@@ -11,7 +11,7 @@ This image does not contain the database for Dolibarr. You need to use either an
 To start the container type:
 
 ```console
-# docker run -d -p 8080:80 --link my-db:db upshift/dolibarr
+# docker run -d -p 4444:80 -- link my-db:db upshift/dolibarr
 ```
 
 Now you can access Dolibarr at http://localhost:8080/ from your host system. Default password for the 'admin' user is 'dolibarr'.
